@@ -1,13 +1,86 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+*{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: mulish;
+}
+.navbar {
+  background-color: #fff !important;
+}
+.navbar-brand{
+  font-size: 1.9rem !important;
+  color: #565387 !important;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+#header{
+  height: 75vh;
+}
+.navbar a{
+  font-size: 1.2rem;
+  text-transform: capitalize;
+}
+.menu_active{
+  font-weight: bold !important;
+  border-bottom: 1px solid #565787 !important;
+}
+.navbar a:hover{
+  color: #3498db !important;
+}
+.navbar-nav{
+  margin-left: 38rem !important;
+}
+.button{
+  border: 1px solid #3498db;
+  border-radius: 25px;
+  padding: 8px 20px;
+  color: grey;
+  text-decoration: none;
+
+}
+   /* designing button */
+.button:hover{
+  background-color: #3498db;
+  color: white;
+}
+.my{
+  margin-top: 100px;
+  height: 100%;
+}
+.brand-name{
+  color: #3498db;
+}
+.disp{
+  display: flex;
+}
+.header-img{
+  margin-left: 80px;
+}
+.servicehead{
+  font-size: 5vh;
+  font-weight: 200;
+  text-align: center;
+}
+.container{
+
+ /* padding-top: 24px;
+ padding-bottom: 24px; */
+  /* background-color: red; */
+  display: flex;
+  justify-content: center;
+}
+.contact{
+  border-radius: 20px;
+  background-color: #2396e3;
+  width: 60vh;
+  padding: 20px;
+  /* height: 60vh; */
+}
+.footer{
+  margin-top: 10px;
+  height: 30px;
+  background-color: #2396e3;
+  color: white;
+  text-align: center;
+  
 }
